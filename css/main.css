@@ -1,0 +1,266 @@
+	body {
+		font-family: candara, sans-serif;
+		font-size: 20px;
+		background: #b6b6b4;
+	}
+	
+	.siteArea {
+		background: #ffffff;
+		padding-top: 20px;
+		box-shadow: 10px 10px 5px #888888;
+	}
+	
+	.navbar {
+		background: #fefcff;
+		/*		background: #00CC99;*/
+	}
+	
+	.navbar li>#searchBox {
+		border: 1px solid black;
+		border-radius: 3px;
+		margin-bottom: 0;
+		margin-top: 10px;
+		margin-left: 100px;
+	}
+	
+	.intro h1 {
+		margin-right: 3px;
+		margin-bottom: 0;
+		margin-top: 0;
+		position: relative;
+		top: -7px;
+	}
+	
+	h1.pull-left {
+		padding: 0;
+		width: auto;
+		color: #B8860B;
+		font-size: 50px;
+		text-shadow: 2px 2px white;
+	}
+	
+	h1 .f {
+		font-style: italic;
+		color: hotpink;
+	}
+	
+	h1 .a {
+		font-style: italic;
+	}
+	
+	h1 .pipe {
+		color: #000000;
+		font-size: 25px;
+		text-shadow: none;
+	}
+	
+	.pull-left small {
+		display: inline-block;
+		height: 30px;
+		padding-top: 10px;
+		padding-left: 3px;
+		font-style: italic;
+		font-size: 20px;
+		color: #000000;
+		text-shadow: none;
+	}
+	
+	ul.pull-right a {
+		display: block;
+		height: 30px;
+		width: 30px;
+		border: 1px solid black;
+		border-radius: 50%;
+		text-align: center;
+	}
+	
+	.img-full {
+		width: 80%;
+		height: 40%;
+		margin: auto;
+	}
+	
+	.box {
+		padding-top: 20px;
+	}
+	
+	.festavia {
+		font-weight: bold;
+		font-size: 30px;
+	}
+	
+	.fa-search {
+		margin-left: 30px;
+		margin-top: 15px;
+	}
+	
+	aside {
+		border: none;
+		width: auto;
+		height: auto;
+		padding: 30px;
+		background: #FFE6E6;
+		text-align: center;
+		border-radius: 5px;
+	}
+	
+	aside ul {
+		list-style-type: none;
+	}
+	
+	aside li a {
+		font-size: 20px;
+		text-decoration: none;
+		color: #000000;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+	
+	aside .updates {
+		background: #fcb6b6;
+		margin-bottom: 50px;
+	}
+	
+	.updates li {
+		margin-right: 40px;
+	}
+	
+	aside form #email {
+		border-radius: 5px;
+	}
+	
+	.divider {
+		background-color: blue;
+	}
+	
+	footer {
+		background: #000000;
+		margin-top: 10px;
+		color: white;
+		text-align: center;
+	}
+	
+	.imageHolder {
+		position: relative;
+		top: 2px;
+		margin-bottom: 35px;
+	}
+	
+	.imageHolder .caption {
+		position: absolute;
+		width: 100%;
+		/*		width: 410px;*/
+		height: auto;
+		bottom: 1px;
+		left: 0px;
+		color: #000000;
+		background: #b6b6b4;
+		font-weight: bold;
+		opacity: 0.7;
+		text-align: center;
+	}
+	
+	.imageHolder .caption h1 {
+		margin: 0;
+		padding: 4px;
+		font-weight: bold;
+	}
+	
+	input#email {
+		margin-bottom: 0;
+	}
+	
+	textarea.comment {
+		margin-top: 0;
+	}
+	
+	.pull-right {
+		margin: 10px;
+	}
+	
+	li {
+		list-style-type: none;
+	}
+	/*
+========================MEDIA QUERRIES=============================*/
+	
+	@media only screen and (max-width:768px) {
+		h1.pull-left {
+			font-size: 35px;
+			margin-top: 0;
+			margin-bottom: 20px;
+			padding-top: 0;
+			position: relative;
+			top: -10px;
+		}
+		h1 small {
+			font-size: 10px;
+		}
+	}
+	
+	@media only screen and (min-width:375px) and (max-width:767px) {
+		.navbar {
+			padding-bottom: 10px;
+			background: #b6b6b4;
+		}
+		.navbar li>#searchBox {
+			border: 1px solid black;
+			border-radius: 3px;
+			margin-bottom: 0;
+			margin-top: 10px;
+			margin-left: 20px;
+		}
+	}
+	
+	@media only screen and (max-width:360px) {
+		h2.text-center {
+			font-size: 8px;
+		}
+		p {
+			font-size: 20px;
+		}
+		.navbar {
+			padding-bottom: 10px;
+			background: #b6b6b4;
+		}
+		.navbar li>#searchBox {
+			border: 1px solid black;
+			border-radius: 3px;
+			margin-bottom: 2px;
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+		.center-block a {
+			font-size: 8px;
+		}
+		small.col-lg-12 {
+			transform: scaleX(0.5);
+			text-shadow: none;
+		}
+	}
+	
+	@media only screen and (max-width:320px) {
+		h2.text-center {
+			font-size: 16px;
+		}
+		p {
+			font-size: 15px;
+		}
+		.navbar {
+			padding-bottom: 0;
+			margin-bottom: 2px;
+		}
+		.socialMedia {
+			margin-top: 0;
+			padding-top: 0;
+		}
+	}
+	
+	@media print,
+	(-o-min-device-pixel-ratio: 5/4),
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 120dpi) {
+		.navbar .socialMedia {
+			visibility: hidden;
+		}
+	}

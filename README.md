@@ -1,0 +1,1 @@
+This is a project from APTECH COMPUTER EDUCATION to build a satic site for festivals around the world
